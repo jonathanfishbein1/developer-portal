@@ -119,13 +119,6 @@ export const Tags = {
       "Cardano wallets store the public and/or private keys to access and manage your funds.",
     icon: null,
   },
-
-  // DEX
-  dex: {
-    label: "DEX",
-    description: "DEX allows direct peer-to-peer cryptocurrency transactions to take place online securely.",
-    icon: null,
-  },
 };
 
 // Add your project to (THE END OF) this list.
@@ -701,13 +694,13 @@ const Showcases = [
     tags: ["game"],
   },
   {
-    title: "MuesliSwap",
+    title: "Cardania",
     description:
-      "MuesliSwap is a new decentralized exchange (DEX) operating on the Smart Bitcoin Cash blockchain and Cardano.",
-    preview: require("./showcase/muesliswap.png"),
-    website: "https://ada.muesliswap.com",
+      "Cardania is a scifi fantasy metaverse gaming ecosystem project that being built on the Cardano blockchain. Welcome to the most rad destination in the metaverse.",
+    preview: require("./showcase/cardania.png"),
+    website: "https://www.cardania.com/",
     source: null,
-    tags: ["dex"],
+    tags: ["game", "nft"],
   },
 ];
 
